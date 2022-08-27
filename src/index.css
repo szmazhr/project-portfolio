@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
+
+:root {
+  --playfair: 'Playfair Display', serif;
+  --roboto: 'Roboto', sans-serif;
+  --primary-color: #2591B2;
+}
+
+/*
+<i class="devicon-adonisjs-original"></i>
+
+OR
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" />
+          
+*/
