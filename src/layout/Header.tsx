@@ -48,6 +48,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <div className="clear" />
     </header>
   );
 }
