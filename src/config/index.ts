@@ -12,19 +12,9 @@ import { Config } from '../types';
 const config: Config = {
   name: 'Shahzar Mazhar',
   nickname: 'szmazhr',
-  about: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
-  minus molestiae vitae delectus dolorum vero doloribus fugit
-  suscipit, minima in eveniet quo, repellat nulla? Rerum facere
-  similique molestiae veniam, vero cupiditate ea impedit nisi ipsum,
-  nesciunt consequatur adipisci enim. Blanditiis incidunt explicabo
-  veniam dolor dolore? Provident quod adipisci consequuntur, magnam
-  dolor consequatur blanditiis nulla debitis, cupiditate veritatis
-  delectus laboriosam. Aliquam, recusandae eligendi? Libero iste
-  assumenda deleniti quas! Facilis animi ipsa delectus voluptates,
-  facere vero autem, expedita sunt architecto debitis molestiae ab
-  voluptate quisquam, non iure. Minima, vel, architecto amet nesciunt
-  minus dicta sit excepturi, autem esse quis neque? Magni, velit.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+  about: `I am an Indian guy living in Kanpur. I love technology in every form and medium, learning new things every day, and constantly tackling new challenges.
+          I consider myself a unique production powerhouse, equipped with a wide range of skills and with the constant desire to push my boundaries and create something new every day.
+          I am a passionate Developer, a meticulous Designer, and an unstoppable Dreamer.`,
   img,
   exLinks: {
     github: 'https://github.com/szmazhr',

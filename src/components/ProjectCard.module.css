@@ -8,7 +8,6 @@
 .project-card img {
   height: 250px;
   width: 100%;
-  aspect-ratio: 3 / 4;
   object-fit: cover;
   background-color: rgba(46, 46, 46, 0.4);
 }

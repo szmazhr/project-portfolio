@@ -22,7 +22,10 @@ function Header() {
         </div>
         <div className={Styles.bio}>
           <h2>About me</h2>
-          <p>{config.about}</p>
+          {config.about.split('\n').map((para, i) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <p key={i}>{para}</p>
+          ))}
           <div className={Styles['header-icons']}>
             {!!config.exLinks.github && (
               <ExternalLink
