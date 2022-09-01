@@ -10,14 +10,7 @@ function Header() {
     <header className={Styles.header}>
       <div className={Styles.content}>
         <div className={Styles.imageContainer}>
-          <img
-            src={config.img}
-            alt=""
-            // style={{
-            //   width: `${info.width}px`,
-            //   height: `${(info.width * 5) / 4}px`,
-            // }}
-          />
+          <img src={config.photos[0]} alt={config.name} />
           <h1>{config.name}</h1>
         </div>
         <div className={Styles.bio}>

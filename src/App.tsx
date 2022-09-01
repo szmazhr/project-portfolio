@@ -1,3 +1,4 @@
+import Contacts from './layout/Contacts';
 import Header from './layout/Header';
 import Projects from './layout/Projects';
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <Projects />
+      <Contacts />
     </div>
   );
 }

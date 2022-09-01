@@ -11,7 +11,10 @@ export type Config = {
   name: string;
   nickname: string;
   about: string;
-  img: string;
+  photos: string[];
+  address: string;
+  phone: [number, number];
+  mailAddr: string;
   exLinks: {
     github: string;
     twitter: string;

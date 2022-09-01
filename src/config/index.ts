@@ -1,4 +1,5 @@
 import img from '../assets/shahzar mazhar.jpg';
+import img2 from '../assets/shahzar mazhar 2.jpg';
 import tweeterImg from '../assets/tweeter.png';
 import hiddenObjectsImg from '../assets/hidden-objects.png';
 import memoryGameImg from '../assets/react-memory-game.png';
@@ -12,10 +13,13 @@ import { Config } from '../types';
 const config: Config = {
   name: 'Shahzar Mazhar',
   nickname: 'szmazhr',
-  about: `I am an Indian guy living in Kanpur. I love technology in every form and medium, learning new things every day, and constantly tackling new challenges.
+  about: `I am an Indian guy and love technology in every form and medium, learning new things every day, and constantly tackling new challenges.
           I consider myself a unique production powerhouse, equipped with a wide range of skills and with the constant desire to push my boundaries and create something new every day.
           I am a passionate Developer, a meticulous Designer, and an unstoppable Dreamer.`,
-  img,
+  photos: [img, img2],
+  address: '101/252, Colonel Ganj, Kanpur, UP - 208001',
+  phone: [91, 7786031707],
+  mailAddr: 'info@shahzar.in',
   exLinks: {
     github: 'https://github.com/szmazhr',
     twitter: 'https://twitter.com/szmazhr',
