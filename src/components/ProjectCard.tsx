@@ -11,7 +11,7 @@ export type ProjectProps = {
 
 function ProjectCard({ project, nickname }: ProjectProps) {
   return (
-    <div className={Styles['project-card']}>
+    <article className={Styles['project-card']}>
       <img src={project.img} alt="" />
       <div className={Styles.content}>
         <div className={Styles.body}>
@@ -40,7 +40,7 @@ function ProjectCard({ project, nickname }: ProjectProps) {
           ))}
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 export default ProjectCard;
