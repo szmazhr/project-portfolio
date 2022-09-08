@@ -66,7 +66,7 @@ const config: Config = {
       name: 'Restaurant Page',
       desc: 'Restaurant Homepage, which uses tabbed browsing to access the Contact and Menu pages',
       repo: 'restaurant-page',
-      built: ['scss', 'javascript'],
+      built: ['bootstrap', 'javascript'],
     },
     {
       img: ticTacToe,
