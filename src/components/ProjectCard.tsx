@@ -25,7 +25,7 @@ function ProjectCard({ project, nickname }: ProjectProps) {
               />
               <ExternalLink
                 href={project.live || `/${project.repo}`}
-                text={Styles.live}
+                text={`${project.name} live`}
                 icon={<OpenInNewIcon />}
               />
             </div>
