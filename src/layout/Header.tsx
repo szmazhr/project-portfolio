@@ -10,7 +10,7 @@ function Header() {
     <header className={Styles.header}>
       <div className={Styles.content}>
         <div className={Styles.imageContainer}>
-          <img src={config.photos[0]} alt={config.name} />
+          <img src={config.photos[0]} alt="" />
           <h1>{config.name}</h1>
         </div>
         <div className={Styles.bio}>

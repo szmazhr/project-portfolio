@@ -68,7 +68,7 @@
 }
 
 .language-framework {
-  background-color: rgb(189, 189, 189);
+  background-color: #757575;
   color: white;
   border-radius: 2px;
   padding: 0 5px;
@@ -77,5 +77,5 @@
 }
 
 .language-framework:hover {
-  background-color: rgb(145, 145, 145);
+  background-color: #737373
 }
